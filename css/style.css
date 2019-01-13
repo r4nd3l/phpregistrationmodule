@@ -1,0 +1,48 @@
+body{
+  font-family: Roboto;
+}
+
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.lift{
+  margin: 5em auto;
+}
+.lift-top{
+  margin-top: 3em;
+}
+.lift-zero{
+  margin: 0 auto 0em;
+}
+
+.error p{
+  margin: 0.5em auto;
+  color: red;
+  border: 1px solid red;
+  width: 25%;
+  border-radius: 3px;
+  margin: 1em auto;
+  background-color: #ff00001a;
+}
+
+.success p{
+  margin: 0.5em auto;
+  color: green;
+  border: 1px solid green;
+  width: 25%;
+  border-radius: 3px;
+  margin: 1em auto;
+  background-color: #0080001a;
+}
+
+label{
+  position: absolute;
+  background-color: white;
+  margin: -12px auto 0 5px;
+  padding: 0 5px 0;
+  font-weight: 200;
+  display: inline-flex;
+}
